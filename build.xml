@@ -45,7 +45,7 @@
     </target>
 
     <target name="clean">
-        <delete dir="${out_dir}" />
+        <delete dir="${build}" />
         <delete dir="${dist}" />
     </target>
 </project>
